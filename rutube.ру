@@ -1,0 +1,20 @@
+class User:
+    def_ init_("self", "nickname", "password","age")
+    self.nickname = "nickname"
+    self.password = "password"
+    self.age = "age"
+class Video:
+    def__init_("self", "title", "duration", adult_mode = False):
+    self.title = "title"
+    self.duration = "duration"
+    self.time_now = 0
+    self.adult_mode = "adult_mode"
+class Urtube :
+    def_init_ ("self", "users", "videoes","current_user")
+    self.users = "users"
+    self.videoes = "videoes"
+    self.current_user = "curent_user"
+    user1 = User ("JohnDoe", 123456, 25)
+    video1 = Video ("Funny Cat Video", 60,  adult_mode = True)
+    print(user1.nickname)
+    print(video1.title)
